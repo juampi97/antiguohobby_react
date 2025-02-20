@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import BannerContainer from "../components/banner/BannerContainer";
 import { Box, Container } from "@mui/material";
-import Carta from "../components/Carta";
+import Carta from "../components/CartaProyectos";
 
 const Proyectos = () => {
   const sourceImg = "/images/proyectos/main.jpg";
