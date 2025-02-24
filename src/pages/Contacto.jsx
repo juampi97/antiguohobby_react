@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Container } from "@mui/material";
 import BannerContainer from "../components/banner/BannerContainer";
 import OpcionesContacto from "../components/contacto/OpcionesContacto";
+import ContactForm from "../components/contacto/ContactForm";
 
 const Contacto = () => {
   const sourceImg = "/images/contacto/main.jpg";
@@ -44,20 +45,34 @@ const Contacto = () => {
         />
       </Container>
       <Container
-              maxWidth={false} 
-              sx={{
-                width: "100vw",
-                // minHeight: "40vh",
-                display: "flex",
-                flexDirection: "column",
-                justifyItems:'start',
-                alignItems:'center',
-                mx: "0px !important",
-                padding: "0px !important",
-                overflow: "hidden"
-              }}
+        maxWidth={false}
+        sx={{
+          width: "100vw",
+          // minHeight: "40vh",
+          display: "flex",
+          flexDirection: "column",
+          justifyItems: "start",
+          alignItems: "center",
+          mx: "0px !important",
+          padding: "0px !important",
+          overflow: "hidden",
+        }}
       >
         <OpcionesContacto contactoData={contactoData} />
+      </Container>
+      <Container
+        maxWidth={false}
+        sx={{
+          width: '100vw',
+          display: 'flex',
+          justifyContent: 'center',
+          mx: '0px !important',
+          padding: '0px !important',
+          overflow: 'hidden',
+          backgroundColor: "#e5e5e5"
+        }}
+      >
+        <ContactForm />
       </Container>
     </>
   );
