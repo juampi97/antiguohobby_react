@@ -36,14 +36,8 @@ export default function App() {
       >
           <Routes>
             <Route path="/" element={<Home />} />
-          </Routes>
-          <Routes>
             <Route path="/servicios" element={<Servicios />} />
-          </Routes>
-          <Routes>
             <Route path="proyectos" element={<Proyectos />} />
-          </Routes>
-          <Routes>
             <Route path="/contacto" element={<Contacto />} />
           </Routes>
       </Container>

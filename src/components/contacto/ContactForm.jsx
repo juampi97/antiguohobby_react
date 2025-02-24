@@ -15,10 +15,10 @@ const ContactForm = () => {
 
   const [submitEnable, setSubmitEnable] = useState(true);
 
-  // const productionMailRoute = "https://mail-antiguohobby.onrender.com/mail";
-  const productionMailRoute = "https://www.antiguohobby.com.ar/mail";
+  const productionMailRoute = "https://mail-antiguohobby.onrender.com/mail";
+  // const productionMailRoute = "https://www.antiguohobby.com.ar/mail";
   const devMailRoute = "http://localhost:8080/mail";
-  const environment = "prd"; // "prod" || "dev"
+  const environment = "prod"; // "prod" || "dev"
   const mailRoute = environment === "prod" ? productionMailRoute : devMailRoute;
 
   const handleChange = (event) => {
