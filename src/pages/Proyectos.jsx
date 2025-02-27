@@ -30,6 +30,12 @@ const Proyectos = () => {
       description: "Sitio web institucional desarrollado para la empresa Trym.",
       link: "https://juampi97.github.io/trym/",
     },
+    {
+      image: "/images/proyectos/impresiones3d.jpg",
+      title: "AH - Impresiones 3D",
+      description: "Sitio web institucional desarrollado para la empresa Antiguohobby.",
+      link: "https://diseñoseimpresiones3d.com.ar/",
+    },
   ];
 
   return (
